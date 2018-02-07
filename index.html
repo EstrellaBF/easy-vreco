@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
   <h3>Mi Mapa</h3>
   <div id="map"></div>
@@ -16,11 +18,19 @@
   <label for="end-location">chau
     <input type="text" placeholder="ingresa hasta donde quieres partir" id="end-location">
   </label>
-  <script
-  src="http://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlSJFm0Ud-vniNBk71be5AXJ_I5t3w9zU&callback=initMap"></script>
+  <button id="mark-route">Trazar ruta</button>
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <!-- API google -->
+  <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlSJFm0Ud-vniNBk71be5AXJ_I5t3w9zU&callback=initMap"></script> -->
+  <!-- API google places -->
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlSJFm0Ud-vniNBk71be5AXJ_I5t3w9zU&libraries=places&callback=autocompletePlaces"
+    async defer></script> -->
+  <!-- SEGUN API PLACES -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlSJFm0Ud-vniNBk71be5AXJ_I5t3w9zU&libraries=places&callback=initMap"
+    async defer></script>
   <script src="js/app.js"></script>
 </body>
+
 </html>
