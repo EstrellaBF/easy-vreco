@@ -1,7 +1,7 @@
 const showMap = document.getElementById('map');
 const startLocation = document.getElementById('start-location');
 const endLocation = document.getElementById('end-location');
-let latitude;
+let latitude; 
 let longitude;
 
 if (navigator.geolocation) {
