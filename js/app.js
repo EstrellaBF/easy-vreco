@@ -30,7 +30,7 @@ if (navigator.geolocation) {
           'location': getPosition
         }, function (results, status) {
           if (status === 'OK') {
-            if (results[1]) {
+            if (results[0]) {
               map.setZoom(15);
               let marker = new google.maps.Marker({
                 position: getPosition,
