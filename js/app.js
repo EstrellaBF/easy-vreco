@@ -20,15 +20,15 @@ if (navigator.geolocation) {
         zoom: 15,
         center: getPosition
       });
-      
-      var geocoder = new google.maps.Geocoder;
-      var infowindow = new google.maps.InfoWindow;
+
+      let geocoder = new google.maps.Geocoder;
+      let infowindow = new google.maps.InfoWindow;
       geocodeLatLng(geocoder, map, infowindow);
-      
+
       function geocodeLatLng(geocoder, map, infowindow) {
         geocoder.geocode({
           'location': getPosition
-        }, function(results, status) {
+        }, function (results, status) {
           if (status === 'OK') {
             if (results[1]) {
               map.setZoom(15);
