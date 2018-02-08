@@ -5,20 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+  <title>Easy vreco</title>
   <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
-  <h3>Mi Mapa</h3>
-  <div id="map"></div>
-  <label for="start-location">Punto de Partida
-    <input type="text" placeholder="ingresa desde donde quieres partir" id="start-location">
-  </label>
-  <label for="end-location">Punto de Llegada
-    <input type="text" placeholder="ingresa hasta donde quieres partir" id="end-location">
-  </label>
-  <button id="mark-route">Trazar ruta</button>
+  <h3>Encuéntrame!</h3>
+  <main class="container">
+    <div class="location flex">
+      <div class="center">
+        <img src="assets/icon/shape.png" alt="" class="icon">
+        <input type="text" placeholder="Ingrese su ubicación" id="start-location">
+
+      </div>
+      <div class="center">
+        <img src="assets/icon/shape2.png" alt="" class="icon">
+        <input type="text" placeholder="Ingrese su destino" id="end-location">
+      </div>
+      <div>
+        <button id="mark-route" class="btn">Trazar ruta</button>
+        <!-- <span>|</span>
+        <button id="mark-route" class="btn">Encuéntrame</button> -->
+      </div>
+
+    </div>
+
+    <div id="map"></div>
+  </main>
+
 
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
