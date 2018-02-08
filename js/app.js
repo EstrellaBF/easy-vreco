@@ -3,7 +3,7 @@ let latitude;
 let longitude;
 
 if (navigator.geolocation) {
-  alert("Puedes usar geolocalización en tu dispositivo");
+  alert('Puedes usar geolocalización en tu dispositivo');
   function initMap() {
     // Función para usar la longitud y latitud
     let localization = (position) => {
@@ -61,6 +61,6 @@ if (navigator.geolocation) {
   // google.maps.event.addDomListener(window, 'load', activatePlacesSearch);
 }
 else {
-  alert("Lamentablemente geolocalización no funciona en tu dispositivo");
+  alert('Lamentablemente geolocalización no funciona en tu dispositivo');
 }
 
