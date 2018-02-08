@@ -18,7 +18,9 @@ if (navigator.geolocation) {
       });
       let marker = new google.maps.Marker({
         position: getPosition,
-        map: map
+        map: map,
+        title: 'bicycle marker',
+        icon: 'assets/icon/bike.png'
       });
 
       // Autocompletado
