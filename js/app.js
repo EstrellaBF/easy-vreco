@@ -38,8 +38,9 @@ if (navigator.geolocation) {
                 title: 'bicycle marker',
                 icon: 'assets/icon/bike.png'
               });
+              startLocation.value = results[0].formatted_address;
               // infowindow.setContent(results[1].formatted_address);
-              infowindow.setContent(`<div id='info_window'><strong>Geolocalización:</strong> <span id='geocodedAddress'>${results[1].formatted_address}</span><br><strong>Latitud:</strong> ${getPosition.lat.toFixed(4)} | <strong>Longitud:</strong> ${getPosition.lng.toFixed(4)}</div>`);
+              infowindow.setContent(`<div id='info_window'><span id='geocodedAddress'>${results[0].formatted_address}</span><br><strong>Latitud:</strong> ${getPosition.lat.toFixed(4)} | <strong>Longitud:</strong> ${getPosition.lng.toFixed(4)}</div>`);
               infowindow.open(map, marker);
             } else {
               window.alert('No results found');
