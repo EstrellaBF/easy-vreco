@@ -18,7 +18,7 @@ El diseño debe ser realizado con grilla y se puede usar el framework de CSS que
 * **HTML:**_Lenguaje de marcado para la elaboración de páginas web. Se usa para la maquetación._
 * **CSS:**_Lenguaje para definir el estilo o la apariencia de las páginas web. Se usa para la maquetación._
 * **JavaScript:** _Se usa ECMAScript6._
-* **Bootstrap:** _Framework Material Design de HTML, CSS y JavaScript._
+* **Bootstrap:** _Framework Flat Design de HTML, CSS y JavaScript._
 
 ## PROPÓSITO
 Poner en práctica el API de HTML5 de Geolocalización el cual puede ubicar mediante coordenadas(longitud y latitud) al usuario y de esta manera poder aplicar este API en distintos proyectos de desarrollo web.
