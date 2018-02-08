@@ -12,6 +12,7 @@ El diseño debe ser realizado con grilla y se puede usar el framework de CSS que
 **Punto extra:**
 * Cambiar el marcador default de google que se muestra en el mapa por una bicicleta.
 * Diseño personalizado.
+* Detecta automática tu ubicación y lo ingresa al textinput del punto de partida.
 
 
 ## HERRAMIENTAS TECNOLÓGICAS USADAS
@@ -25,7 +26,4 @@ Poner en práctica el API de HTML5 de Geolocalización el cual puede ubicar medi
 Usar el API de google maps.
 
 ## VISTA PREVIA
-![Imagen 1]()
-
-
-![Imagen 2]()
+![Imagen 1](assets/app.png "Aplicación")
